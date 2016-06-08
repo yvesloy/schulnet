@@ -16,6 +16,16 @@
 // 08.06.2016   - Neu
 /*************************************************/
 
+	session_start();
 
-	header('Location: http://localhost/schulnet/Presentation Layer/index.php');    
+	if (!isset($_SESSION['isLogin'])) {
+		$_SESSION['isLogin'] = false;
+	}
+	require_once("navigation.php"); 
 ?>
+		<p style="width:640px;">
+			Willkommen!<br /><br />
+			Diese Applikation zeigt die Implementierung eines Data Abstraction Layers (DAL).
+		</p>
+	</body>
+</html>
