@@ -1,7 +1,6 @@
 <?php
 
 /*************************************************/
-// M151:          Data Abstraction Layer (DAL)
 // Author:        Rajethan Ranjan & Yves Zumbühl
 // Datum:         08.06.2016
 // Version:       1.0
